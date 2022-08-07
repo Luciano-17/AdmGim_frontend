@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-page {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 768px) {
+    .label-md {
+        display: inline-block;
+        width: 120px;
+        text-align: end;
+    }
+    .label-md-rutina {
+        display: inline-block;
+        width: 190px;
+        text-align: end;
+    }
+    .label-md-perfil {
+        display: inline-block;
+        width: 80px;
+        text-align: end;
+    }
+}
